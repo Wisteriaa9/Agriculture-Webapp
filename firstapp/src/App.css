@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+}
+.sidebar{
+    
+    background: hsla(241, 50%, 55%, 1);
+
+    background: linear-gradient(90deg, hsla(241, 50%, 55%, 1) 8%, hsla(244, 34%, 73%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(241, 50%, 55%, 1) 8%, hsla(244, 34%, 73%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(241, 50%, 55%, 1) 8%, hsla(244, 34%, 73%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#5655C6", endColorstr="#A4A1D1", GradientType=1 );
+    color: #fff;
+    width: 200px;
+    transition: all 0.5s;
+}
+.top_section{
+    display: flex;
+    align-items:center;
+    padding:20px 15px;
+}
+.logo{
+    font-size: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 50px;
+}
+.link{
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 15px;
+    transition: all 0.5s;
+}
+.link:hover{
+    background:rgb(140, 188, 222);
+    color: #000;
+    transition: all 0.5s;
+}
+.active{
+    background: rgb(140, 188, 222);
+    color: #000;
+}
+.icon, .link_text{
+    font-size: 20px;
+}
+.product-list {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .description {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  li {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 5px;
+  }
+  
+  .about {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bar-graph {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
